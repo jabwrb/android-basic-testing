@@ -12,4 +12,11 @@ public class NameValidationTest {
         boolean result = nameValidation.isEmpty("");
         assertTrue(result);
     }
+    
+    @Test
+    public void nameIsNull() {
+        NameValidation nameValidation = new NameValidation();
+        boolean result = nameValidation.isNull(null);
+        assertTrue(result);
+    }
 }
