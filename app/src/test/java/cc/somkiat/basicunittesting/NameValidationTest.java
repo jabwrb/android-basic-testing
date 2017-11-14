@@ -19,4 +19,11 @@ public class NameValidationTest {
         boolean result = nameValidation.isNull(null);
         assertTrue(result);
     }
+
+    @Test
+    public void nameLengthInRange2to20() {
+        NameValidation nameValidation = new NameValidation();
+        boolean result = nameValidation.isLengthInRange2to20("Jaab");
+        assertTrue(result);
+    }
 }
