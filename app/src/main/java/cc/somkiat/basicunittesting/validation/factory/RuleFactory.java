@@ -11,10 +11,7 @@ import cc.somkiat.basicunittesting.validation.rule.NameLengthRule;
 import cc.somkiat.basicunittesting.validation.rule.ValidationRule;
 
 public class RuleFactory {
-    private RuleFactory() {
-    }
-
-    public static List<ValidationRule> getNameRules() {
+    public List<ValidationRule> getNameRules() {
         List<ValidationRule> validationRules = new ArrayList<>();
         validationRules.add(new NameEmptyRule());
         validationRules.add(new NameLengthRule());
@@ -22,7 +19,7 @@ public class RuleFactory {
         return validationRules;
     }
 
-    public static List<ValidationRule> getEmailRules() {
+    public List<ValidationRule> getEmailRules() {
         List<ValidationRule> validationRules = new ArrayList<>();
         validationRules.add(new EmailEmptyRule());
         validationRules.add(new EmailFormatRule());
