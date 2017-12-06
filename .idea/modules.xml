@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-basic-testing.iml" filepath="$PROJECT_DIR$/android-basic-testing.iml" />
+      <module fileurl="file://C:\Users\Jaab\Documents\GitHub\android-basic-testing\android-basic-testing.iml" filepath="C:\Users\Jaab\Documents\GitHub\android-basic-testing\android-basic-testing.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Jaab\Documents\GitHub\android-basic-testing\app\app.iml" filepath="C:\Users\Jaab\Documents\GitHub\android-basic-testing\app\app.iml" />
     </modules>
   </component>
 </project>
